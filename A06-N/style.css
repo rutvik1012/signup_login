@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url(./back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wraper{
+    max-width: 100%;
+    width: 17%;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+    
+}
+.main{
+    border: 2px solid rgb(46, 95, 95);
+    margin: 10px;
+    background-color: rgba(182, 212, 238,0.3);
+    border-radius: 24px;
+}
+h2{
+    margin: 10px;
+    
+}
+form{
+    margin: 10px;
+    margin-top: 20px;
+    display: block;
+    /* justify-content: center; */
+    /* text-align: center; */
+
+}
+input{
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 5px;
+    background: transparent;
+}
+.top{
+    margin-top: 15px;
+}
+input::placeholder{
+ color: rgb(65, 113, 186);
+ 
+
+}   
+.pass{
+    margin-top: 10px;
+}
+.rem,.skill,.gender,.hobby{
+    font-size: small;
+    display: flex;
+    
+    
+}
+label{
+    margin-right: 10px;
+    margin-top: 5px;
+    
+}
+#btnb{
+    display: flex;
+    justify-content: center;
+}
+#login{
+    background-color: rgb(50, 218, 218);
+    padding: 5px;
+    width: 80px;
+    border: 0px;
+    border-radius: 16px;
+}
+a{
+   color:rgb(50, 87, 253);
+}
+
+.sign{
+    text-align: center;
+    margin-bottom: 10px;
+}
